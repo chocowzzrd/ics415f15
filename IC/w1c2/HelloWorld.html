@@ -7,5 +7,27 @@
 <body>
 <h1 style="text-align:center; color:black">Hello World!</h1>
 <p1><h2 style="text-align:center;">Welcome to my website.</p1>
+<p2><h3 style=""text-align;center;"> <a href="http://images4.fanpop.com/image/photos/17100000/totoro-hayao-miyazaki-17111808-1000-960.jpg">Totoro</a></h3></p2>
+
+<form method="post"> <!--missing action-->
+  <p style="text-align:center; color:black"> Name: <input type="text" name="name"/></p>
+  <p style="text-align:center; color:black"> Gender: <input type="radio" name="gender" value="Male"/>Male
+    <input type="radio" name="gender" value="Female"/>Female</p>
+
+  <p style="text-align:center; color:black"> GPA:
+    <select name="select">
+      <option value="lessthen2"/>Less than 2.0</option>
+      <option value="2 - 2.4"/>2.0 - 2.4</option>
+      <option value="2.5 - 2.9"/>2.5 - 2.9</option>
+      <option value="3.0 - 3.4"/>3.0 - 3.4</option>
+      <option value="3.5 - 3.9"/>3.5 - 3.9</option>
+      <option value="4.0"/>4.0</option></select></p>
+
+  <p style="text-align:center; color:black"> Comments about the site: </p>
+  <p style="text-align:center"><textarea rows="10" cols="50" name="textBox"/></textarea></p>
+
+  <p style="text-align:center"><input type="submit" name="submit" value="Submit"/></p>
+</form>
+
 </body>
 </html>
