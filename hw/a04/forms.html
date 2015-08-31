@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<table style="width:100%" border="1">
+  <tr>
+    <th style="padding: 15px; font-size: xx-large " colspan="2">Sam's Cool Website</th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <a href="index.html">Home</a>
+      <a href="forms.html">Forms</a>
+    </td>
+  </tr>
+  <tfoot>
+  <tr>
+    <td style="text-align: center;"colspan="2">Copyright (C) Sam Park</td>
+  </tr>
+  </tfoot>
+  <tr>
+    <td width="25%" style="vertical-align: top">
+      <p style="text-align: center;"><b>Forms Summary</b></p>
+      <p style="text-align: center;">HTML supports different types of input.</p>
+    </td>
+    <td>
+      <p width="75%" style="font-size: large; vertical-align: top;"><b>Forms Page</b></p>
+      <form action="GET">
+        <p>The following is a text input:</p>
+        User Name: <input type="text" name="Uname"><br>
+        <p>Then a password input:</p>
+        Password: <input type="password" name="PassWord"><br>
+        <p>Which side are you on?:</p>
+          <input type="radio" name="Alliance" value="Badside">Eldrazi<br>
+          <input type="radio" name="Alliance" value="Goodside">Ally
+        <p>Checkboxes</p>
+          <input type="checkbox" name="OS" value="HeIsCool">Windows
+          <br><input type="checkbox" name="OS" value="HeIsALoser">OS X
+          <br><input type="checkbox" name="OS" value="HeIsProbablyAnICSMajor">Linux
+        <p>Submit button to send form data</p>
+
+        <input type="submit" value="Submit">
+      </form>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
