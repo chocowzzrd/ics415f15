@@ -1,0 +1,24 @@
+
+body {
+  padding: 1%;
+}
+
+#col3 {
+  margin: 0% 0% 0% 1%;
+  border-width:1px;
+  padding-bottom: 300px;
+  border-style: dashed;
+  border-color: mediumblue;
+
+}
+
+#col1 {
+  padding-bottom: 303px;
+}
+
+#footer {
+  margin: 1% 0% 0% 1%;
+  padding-bottom: 20px;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
