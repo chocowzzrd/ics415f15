@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>First Bootstrap</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <script src="javaScript.js"></script>
+</head>
+<body>
+<h1 style="margin: 3% 0% 3% 0%">Results page</h1>
+
+<hr> <!-- line -->
+
+<div class="well">Welcome to the Results page!</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div id=col1 class="col-md-3" style="background-color: sandybrown;">Is this corret?.</div>
+    <div id=fill class="col-md-1"></div>
+    <div id=col2 class="col-md-8" style="background-color: sandybrown; padding-bottom: 185px">
+      <br>
+      <p>Results here</p>
+      <p id="demo">demo: </p>
+
+    </div>
+
+    <div class="row">
+      <div id=footer class="col-md-12"></div>
+
+    </div>
+
+    <br>
+
+    <div class="well">(C) Sam Park 2015</div>
+  </div>
+</div>
+
+<script>
+
+  window.onload = function () {
+    var url = document.URL;
+    var re = new RegExp("\\w+\\&||\\w+$", "g")
+    document.getElementById("demo").innerHTML = url;
+  }
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+</body>
+</html>

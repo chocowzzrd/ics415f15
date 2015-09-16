@@ -1,0 +1,35 @@
+
+body {
+  padding: 1%;
+  height: 100%;
+  border-width: thin;
+  border-style: none;
+  border-color: black;
+  background-color: burlywood;
+}
+
+#col2 {
+  margin: 0% 0% 0% 0%;
+  border-width:1px;
+  border-style: none;
+  border-color: mediumblue;
+  padding-bottom: 303px;
+}
+
+#col1 {
+  border-right: thin;
+  border-right-style: none;
+  border-right-color: red;
+  padding-bottom: 305px;
+}
+
+.well {
+  border-top: double;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right: none;
+  border-left: none;
+  border-color: black;
+  background-color: sandybrown;
+  text-align: center;
+}
