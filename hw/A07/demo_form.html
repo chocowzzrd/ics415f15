@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>First Bootstrap</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <script src="myscript.js"></script>
 </head>
 <body>
+<h1 style="margin: 3% 0% 3% 0%">Forms Page</h1>
 
+<hr> <!-- line -->
+
+<div class="well">Welcome to the forms page!
+  <br>
+  <p id="error" style="text-align: center"></p>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div id=col1 class="col-md-3" style="background-color: sandybrown;">Fill out this form.</div>
+    <div id=fill class="col-md-1"></div>
+    <div id=col2 class="col-md-8" style="background-color: sandybrown; padding-bottom: 185px">
+      <br>
+      <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="GET">
+        <div class="form-group">
+          <label for="username">User name: </label>
+          <input type="text"  name="name" id="username">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="address">Email: </label>
+          <input type="address" name="address" id="address">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="pass">Password: </label>
+          <input type="pass" name="pass" id="pass">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="confirm">Confirm Password: </label>
+          <input type="confirm" name="confirm" id="confirm">
+        </div>
+        <br>
+        <input type="submit" value="Submit" onclick="">
+      </form>
+      <p id="demo1"></p>
+      <p id="demo2"></p>
+      <p id="demo3"><p>
+      <p id="demo4"><p>
+      <p id="demo5"><p>
+      </div>
+
+    <div class="row">
+      <div id=footer class="col-md-12"></div>
+
+    </div>
+
+    <br>
+
+    <div class="well">(C) Sam Park 2015</div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
 </body>
 </html>
