@@ -30,6 +30,10 @@ body {
   margin-bottom:20px;
 }
 
+#top {
+  background-color: orange;
+}
+
 .well {
   border-top: double;
   border-top-style: solid;

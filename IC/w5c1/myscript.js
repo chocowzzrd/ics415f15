@@ -99,3 +99,21 @@ window.onload = function () {
     document.getElementById("demo5").innerHTML ="Password Confirm:" +  uPassCon;
     return;
 }*/
+
+$(document).ready(function(){
+    $("#main").click(function(){
+        $(this).hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#top").mouseenter(function(){
+        $(this).css('background-color', 'transparent');
+    });
+});
+
+$(document).ready(function(){
+    $("#bottom").mouseleave(function(){
+        $(this).css('color', 'green');
+    });
+});
