@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Assingment 08</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <script src="myScript.js"></script>
+</head>
+<body>
+<h1 style="margin: 3% 0% 3% 0%">Sam's Website</h1>
+
+<hr> <!-- line -->
+
+<div class="well">Welcome to the forms page.
+  <br>
+  <p id="error" style="text-align: center"></p>
+</div>
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="conainer-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">FAQ</a></li>
+        <li class="active"><a href="forms.html">Forms</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div id=col1 class="col-md-1"></div>
+    <div id=col2 class="col-md-10" style="background-color: sandybrown;">
+      <form name="myForm" action="forms.html" method="GET">
+        <br>
+        <div class="form-group">
+          <label for="url">Enter URL: </label>
+          <input type="url"  name="url" id="url">
+         <br>
+          <input id="submit" type="submit" value="Submit" >
+        </div>
+      </form>
+      <p id="info">URL entered: </p>
+    </div>
+    <div id=col3 class="col-md-1"></div>
+
+    <div class="row">
+      <div id=footer class="col-md-12"></div>
+    </div>
+
+    <br>
+
+    <div class="well">(C) Sam Park 2015</div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+</body>
+</html>
