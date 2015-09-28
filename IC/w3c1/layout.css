@@ -1,6 +1,11 @@
 
 body {
   padding: 1%;
+  height: 100%;
+}
+
+.left {
+  height: 25%;
 }
 
 #col3 {
@@ -19,6 +24,7 @@ body {
 #footer {
   margin: 1% 0% 0% 1%;
   padding-bottom: 20px;
+  height: 50px;
   border-top: 2px solid black;
   border-bottom: 1px solid black;
 }
