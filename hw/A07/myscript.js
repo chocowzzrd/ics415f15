@@ -78,7 +78,7 @@ function validateForm() {
     var ret = correct && same;
     return ret;
 }
-/*
+
 window.onload = function () {
     var urlString = document.URL;
     console.log(location.search);
@@ -98,4 +98,4 @@ window.onload = function () {
     document.getElementById("demo4").innerHTML ="Password:" +  uPass;
     document.getElementById("demo5").innerHTML ="Password Confirm:" +  uPassCon;
     return;
-}*/
+}
